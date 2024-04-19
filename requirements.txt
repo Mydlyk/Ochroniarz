@@ -1,0 +1,8 @@
+accelerate==0.29.2
+langchain==0.1.16
+langchain_community==0.0.33
+langchain_core==0.1.44
+langchain_experimental==0.0.57
+presidio_analyzer==2.2.354
+pysentimiento==0.7.3
+textblob==0.18.0.post0
