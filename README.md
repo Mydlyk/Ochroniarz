@@ -44,8 +44,7 @@ Anonimizacja jest odwracalna.
 Ollama jest wykorzystywana do wyszukania i znalezienia przekleństw, mowy nienawiści i informacji o stanie zdrowia. Zwraca string z nazwami w cudzysłowach.  
 ![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/dc2473b0-2fa4-4e35-a1e7-91f687ca2171)
 
- ![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/b5d6192d-c7e2-478e-be23-a0b6768af25c)
-
+![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/a7bcdeeb-d7f6-409d-acd3-493d9aea2684)
 
 Następnie te dane są wyciągane z stringa.
  
