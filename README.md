@@ -1,6 +1,6 @@
-Markup : # Dokumentacja aplikacji „Ochroniarz” #
+# Dokumentacja aplikacji „Ochroniarz” 
 
-##Opis uruchomienia Aplikacji##
+## Opis uruchomienia Aplikacji
 Ochroniarz został stworzony w notebook’u ipynb w języku python. Do uruchomiania aplikacji wymagane jest środowisko python(osobiście korzystałem z wersji pythona 3.12)  oraz IDE onsługujące pliki ipynb np. Visual Studio Code(z którego korzystałem). Do poprawnego działania aplikacji wymagane są następujące biblioteki:
 accelerate==0.29.2
 langchain==0.1.16
@@ -13,10 +13,10 @@ textblob==0.18.0.post0
 
 Spis potrzebnych bibliotek znajduję się również w pliku „requirements.txt”.
 
-##Opis działania aplikacji##
+## Opis działania aplikacji
 Aplikacja po wprowadzeniu do niej treści dokumentu za pomocą biblioteki Microsoft Presidio zanonimizuje dane poufne oraz zastępuje je Placeholderami, następnie wyświetla dokument po anonimizacji oraz słownik, w którym znajdują się zanimizowane dane. Anonimizacja jest odwracalna. Następnie za pomocą localnego LLM(Large Language Model) Ollam’y sprawdza, czy w dokumencie są przekleństwa, mowa nienawiści i dane o stanie zdrowia, po czym je zwraca. Kolejnym krokiem jej działania jest zastąpienie tych danych Placeholderami i ponowne wyświetlenie całkowicie zanonimizowanego dokumentu. Ostatnim krokiem działania aplikacji jest wyznaczenie współczynnika mowy nienawiści oraz na podstawie sentymentu sprawdzenie, czy tekst jest mową nienawiści.
 
-##Opis kodu aplikacji##
+## Opis kodu aplikacji
  ![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/5fb700e1-f830-4b7e-8cca-1d10a940616d)
 
 Zmienna anonymizer wykorzystuje PresidioReversibleAnonymizer do anonimizacji danych. Faker jest ustawiony na false, ponieważ służy on do zastąpienia danych innymi fałszywym, a aplikacja ma te dane zastąpić placeholderami. 
