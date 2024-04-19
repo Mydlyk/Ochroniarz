@@ -25,24 +25,25 @@ Zmienna anonymizer wykorzystuje PresidioReversibleAnonymizer do anonimizacji dan
 Podstawowy anonymizer nie obsługuje numeru polskiego dowodu oraz numeru konta bankowego oddzielonego spacjami. Powyższy kod dodaje te szablony.
 ![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/6c4a4a93-cf86-463a-8818-009e950b0b55)
  
-![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/12c561a8-6271-4af2-8873-b47233c48d97)
+![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/caadf354-e023-41aa-909c-dd9cb741996c)
+
  
 Funkcja print_colored_pii służy do wyświetlenia placeholderów na inny kolor w celu lepszej czytelności.
 anonymizer.anonymize(document_content) anomizuje dane dokumentu.
 ![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/7d4490f7-1fcf-4c3a-bf4c-97762ea38044)
- ![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/77bc5b9d-478c-4995-9ec5-084f62766d6b)
- 
-  
+![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/9c012f49-5285-4503-abf6-cba3fd631fc3)
+
 anonymizer.deanonymizer_mapping przechowuje słownik z zanonimizowanymi danymi. Jeśli słownik jest pusty oznacza to, że nie zostały wykryte żadne dane poufne.
 
- ![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/4e354c88-f1c0-4c75-a17d-60468585eecd)
+![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/d7e3a410-5aa5-4efb-beed-cdf2d5a37a0e)
 
 Anonimizacja jest odwracalna.
 ![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/55abc37d-6431-4404-bc8b-88637ebc78c7)
 
  
 Ollama jest wykorzystywana do wyszukania i znalezienia przekleństw, mowy nienawiści i informacji o stanie zdrowia. Zwraca string z nazwami w cudzysłowach.  
- ![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/bcdc4f7f-8544-42c4-a143-bdd631b4ecbf)
+![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/dc2473b0-2fa4-4e35-a1e7-91f687ca2171)
+
  ![image](https://github.com/Mydlyk/Ochroniarz/assets/65900710/b5d6192d-c7e2-478e-be23-a0b6768af25c)
 
 
