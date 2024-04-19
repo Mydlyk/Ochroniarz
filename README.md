@@ -1,4 +1,4 @@
-Markup : #Dokumentacja aplikacji „Ochroniarz”#
+Markup : # Dokumentacja aplikacji „Ochroniarz” #
 
 ##Opis uruchomienia Aplikacji##
 Ochroniarz został stworzony w notebook’u ipynb w języku python. Do uruchomiania aplikacji wymagane jest środowisko python(osobiście korzystałem z wersji pythona 3.12)  oraz IDE onsługujące pliki ipynb np. Visual Studio Code(z którego korzystałem). Do poprawnego działania aplikacji wymagane są następujące biblioteki:
